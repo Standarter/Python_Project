@@ -1,7 +1,8 @@
 import program_class
+import func.default_functions
 
 def main():
-    print("Hello World")
+    print(ProgramClass.system_args)
     pass
 
 ProgramClass = program_class.ProgramClass(main, args=[])
